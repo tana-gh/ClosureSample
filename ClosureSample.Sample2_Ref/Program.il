@@ -27,14 +27,14 @@
 }
 
 .module 'ClosureSample.Sample2_Ref.dll'
-// MVID: {5bd24c11-32ea-4cd4-82f9-b4459551ea39}
+// MVID: {20cdafac-b37e-4fd4-8b8b-e1c668f24e85}
 .imagebase 0x00400000
 .file alignment 0x00000200
 .stackreserve 0x00100000
 .subsystem 0x0003  // WindowsCui
 .corflags 0x00000001  // ILOnly
 
-.class private auto ansi beforefieldinit ClosureSample.Sample2_1.Program extends [System.Runtime]System.Object
+.class private auto ansi beforefieldinit ClosureSample.Sample2_Ref.Program extends [System.Runtime]System.Object
 {
   .method private hidebysig static default void Main(string[] args) cil managed
   {
@@ -43,11 +43,11 @@
     // Code size 13 (0xD)
     .maxstack 8
     IL_0000: nop
-    IL_0001: call int32 class ClosureSample.Sample2_1.A::F()
+    IL_0001: call int32 class ClosureSample.Sample2_Ref.A::F()
     IL_0006: call void class [System.Console]System.Console::WriteLine(int32)
     IL_000b: nop
     IL_000c: ret
-  } // End of method System.Void ClosureSample.Sample2_1.Program::Main(System.String[])
+  } // End of method System.Void ClosureSample.Sample2_Ref.Program::Main(System.String[])
   .method public hidebysig specialname rtspecialname instance default void .ctor() cil managed
   {
     // Method begins at Relative Virtual Address (RVA) 0x205E
@@ -57,10 +57,10 @@
     IL_0001: call instance void class [System.Runtime]System.Object::.ctor()
     IL_0006: nop
     IL_0007: ret
-  } // End of method System.Void ClosureSample.Sample2_1.Program::.ctor()
-} // End of class ClosureSample.Sample2_1.Program
+  } // End of method System.Void ClosureSample.Sample2_Ref.Program::.ctor()
+} // End of class ClosureSample.Sample2_Ref.Program
 
-.class private abstract auto ansi sealed beforefieldinit ClosureSample.Sample2_1.A extends [System.Runtime]System.Object
+.class private abstract auto ansi sealed beforefieldinit ClosureSample.Sample2_Ref.A extends [System.Runtime]System.Object
 {
   .method public hidebysig static default int32 F() cil managed
   {
@@ -72,14 +72,14 @@
     IL_0001: ldc.i4.0
     IL_0002: stloc.0
     IL_0003: ldloca.s class V_0
-    IL_0005: call void class ClosureSample.Sample2_1.A::G(byreference)
+    IL_0005: call void class ClosureSample.Sample2_Ref.A::G(byreference)
     IL_000a: nop
     IL_000b: ldloc.0
     IL_000c: stloc.1
     IL_000d: br.s     IL_000f
     IL_000f: ldloc.1
     IL_0010: ret
-  } // End of method System.Int32 ClosureSample.Sample2_1.A::F()
+  } // End of method System.Int32 ClosureSample.Sample2_Ref.A::F()
   .method private hidebysig static default void G(byreference i) cil managed
   {
     // Method begins at Relative Virtual Address (RVA) 0x2085
@@ -93,5 +93,5 @@
     IL_0005: add
     IL_0006: stind.i4
     IL_0007: ret
-  } // End of method System.Void ClosureSample.Sample2_1.A::G(System.Int32&)
-} // End of class ClosureSample.Sample2_1.A
+  } // End of method System.Void ClosureSample.Sample2_Ref.A::G(System.Int32&)
+} // End of class ClosureSample.Sample2_Ref.A

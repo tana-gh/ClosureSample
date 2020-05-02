@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ClosureSample.Sample4_2
+namespace ClosureSample.Sample4_Task_2
 {
     class Program
     {

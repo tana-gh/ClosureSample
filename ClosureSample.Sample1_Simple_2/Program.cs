@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClosureSample.Sample1_2
+namespace ClosureSample.Sample1_Simple_2
 {
     class Program
     {

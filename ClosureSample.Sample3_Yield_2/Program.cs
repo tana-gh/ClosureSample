@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace ClosureSample.Sample3_2
+namespace ClosureSample.Sample3_Yield_2
 {
     class Program
     {

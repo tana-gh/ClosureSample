@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ClosureSample.Sample5_1
+namespace ClosureSample.Sample5_Local_1
 {
     class Program
     {

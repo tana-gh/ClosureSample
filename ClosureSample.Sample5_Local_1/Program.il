@@ -45,45 +45,45 @@
 }
 
 .module 'ClosureSample.Sample5_Local_1.dll'
-// MVID: {8a3c10b2-b139-484c-be98-f4254becd143}
+// MVID: {bf30c759-8fab-4526-ae5d-5f3057631b5f}
 .imagebase 0x00400000
 .file alignment 0x00000200
 .stackreserve 0x00100000
 .subsystem 0x0003  // WindowsCui
 .corflags 0x00000001  // ILOnly
 
-.class private auto ansi beforefieldinit ClosureSample.Sample5_1.Program extends [System.Runtime]System.Object
+.class private auto ansi beforefieldinit ClosureSample.Sample5_Local_1.Program extends [System.Runtime]System.Object
 {
   .method private hidebysig static default [System.Runtime]System.Threading.Tasks.Task Main(string[] args) cil managed
   {
-    .custom instance void class [System.Runtime]System.Runtime.CompilerServices.AsyncStateMachineAttribute::.ctor([System.Runtime]System.Type) = ( 01 00 2A 43 6C 6F 73 75 72 65 53 61 6D 70 6C 65 2E 53 61 6D 70 6C 65 35 5F 31 2E 50 72 6F 67 72 61 6D 2B 3C 4D 61 69 6E 3E 64 5F 5F 30 00 00 ) // ...ClosureSample.Sample5_1.Program..Main.d__0..
+    .custom instance void class [System.Runtime]System.Runtime.CompilerServices.AsyncStateMachineAttribute::.ctor([System.Runtime]System.Type) = ( 01 00 30 43 6C 6F 73 75 72 65 53 61 6D 70 6C 65 2E 53 61 6D 70 6C 65 35 5F 4C 6F 63 61 6C 5F 31 2E 50 72 6F 67 72 61 6D 2B 3C 4D 61 69 6E 3E 64 5F 5F 30 00 00 ) // ..0ClosureSample.Sample5_Local_1.Program..Main.d__0..
     .custom instance void class [System.Diagnostics.Debug]System.Diagnostics.DebuggerStepThroughAttribute::.ctor() = ( 01 00 00 00 ) // ....
     // Method begins at Relative Virtual Address (RVA) 0x2050
     // Code size 59 (0x3B)
     .maxstack 2
-    .locals init(class ClosureSample.Sample5_1.Program/<Main>d__0 V_0, valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder V_1)
-    IL_0000: newobj instance void class ClosureSample.Sample5_1.Program/<Main>d__0::.ctor()
+    .locals init(class ClosureSample.Sample5_Local_1.Program/<Main>d__0 V_0, valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder V_1)
+    IL_0000: newobj instance void class ClosureSample.Sample5_Local_1.Program/<Main>d__0::.ctor()
     IL_0005: stloc.0
     IL_0006: ldloc.0
     IL_0007: ldarg.0
-    IL_0008: stfld string[] ClosureSample.Sample5_1.Program/<Main>d__0::args
+    IL_0008: stfld string[] ClosureSample.Sample5_Local_1.Program/<Main>d__0::args
     IL_000d: ldloc.0
     IL_000e: call valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder class valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Create()
-    IL_0013: stfld valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder ClosureSample.Sample5_1.Program/<Main>d__0::'<>t__builder'
+    IL_0013: stfld valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>t__builder'
     IL_0018: ldloc.0
     IL_0019: ldc.i4.m1
-    IL_001a: stfld int32 ClosureSample.Sample5_1.Program/<Main>d__0::'<>1__state'
+    IL_001a: stfld int32 ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>1__state'
     IL_001f: ldloc.0
-    IL_0020: ldfld valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder ClosureSample.Sample5_1.Program/<Main>d__0::'<>t__builder'
+    IL_0020: ldfld valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>t__builder'
     IL_0025: stloc.1
     IL_0026: ldloca.s class V_1
     IL_0028: ldloca.s class V_0
-    IL_002a: call instance System.Void class valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<class ClosureSample.Sample5_1.Program/<Main>d__0>(!!0&)
+    IL_002a: call instance System.Void class valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<class ClosureSample.Sample5_Local_1.Program/<Main>d__0>(!!0&)
     IL_002f: ldloc.0
-    IL_0030: ldflda valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder ClosureSample.Sample5_1.Program/<Main>d__0::'<>t__builder'
+    IL_0030: ldflda valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>t__builder'
     IL_0035: call instance [System.Runtime]System.Threading.Tasks.Task class valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder::get_Task()
     IL_003a: ret
-  } // End of method System.Threading.Tasks.Task ClosureSample.Sample5_1.Program::Main(System.String[])
+  } // End of method System.Threading.Tasks.Task ClosureSample.Sample5_Local_1.Program::Main(System.String[])
   .method public hidebysig specialname rtspecialname instance default void .ctor() cil managed
   {
     // Method begins at Relative Virtual Address (RVA) 0x2097
@@ -93,7 +93,7 @@
     IL_0001: call instance void class [System.Runtime]System.Object::.ctor()
     IL_0006: nop
     IL_0007: ret
-  } // End of method System.Void ClosureSample.Sample5_1.Program::.ctor()
+  } // End of method System.Void ClosureSample.Sample5_Local_1.Program::.ctor()
   .method private hidebysig specialname static default void <Main>(string[] args) cil managed
   {
     .custom instance void class [System.Diagnostics.Debug]System.Diagnostics.DebuggerStepThroughAttribute::.ctor() = ( 01 00 00 00 ) // ....
@@ -103,13 +103,13 @@
     .maxstack 1
     .locals init(valuetype [System.Runtime]System.Runtime.CompilerServices.TaskAwaiter V_0)
     IL_0000: ldarg.0
-    IL_0001: call [System.Runtime]System.Threading.Tasks.Task class ClosureSample.Sample5_1.Program::Main(string[])
+    IL_0001: call [System.Runtime]System.Threading.Tasks.Task class ClosureSample.Sample5_Local_1.Program::Main(string[])
     IL_0006: callvirt instance valuetype [System.Runtime]System.Runtime.CompilerServices.TaskAwaiter class [System.Runtime]System.Threading.Tasks.Task::GetAwaiter()
     IL_000b: stloc.0
     IL_000c: ldloca.s class V_0
     IL_000e: call instance void class valuetype [System.Runtime]System.Runtime.CompilerServices.TaskAwaiter::GetResult()
     IL_0013: ret
-  } // End of method System.Void ClosureSample.Sample5_1.Program::<Main>(System.String[])
+  } // End of method System.Void ClosureSample.Sample5_Local_1.Program::<Main>(System.String[])
 
   .class nested private auto ansi sealed beforefieldinit <Main>d__0 extends [System.Runtime]System.Object implements [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine
   {
@@ -131,15 +131,15 @@
       IL_0001: call instance void class [System.Runtime]System.Object::.ctor()
       IL_0006: nop
       IL_0007: ret
-    } // End of method System.Void ClosureSample.Sample5_1.Program/<Main>d__0::.ctor()
+    } // End of method System.Void ClosureSample.Sample5_Local_1.Program/<Main>d__0::.ctor()
     .method private hidebysig newslot virtual final instance default void MoveNext() cil managed
     {
       // Method begins at Relative Virtual Address (RVA) 0x20D4
       // Code size 266 (0x10A)
       .maxstack 3
-      .locals init(int32 V_0, class [System.Runtime]System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32[]> V_1, class ClosureSample.Sample5_1.Program/<Main>d__0 V_2, class [System.Runtime]System.Exception V_3)
+      .locals init(int32 V_0, class [System.Runtime]System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32[]> V_1, class ClosureSample.Sample5_Local_1.Program/<Main>d__0 V_2, class [System.Runtime]System.Exception V_3)
       IL_0000: ldarg.0
-      IL_0001: ldfld int32 ClosureSample.Sample5_1.Program/<Main>d__0::'<>1__state'
+      IL_0001: ldfld int32 ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>1__state'
       IL_0006: stloc.0
       .try
       {
@@ -149,7 +149,7 @@
         IL_000c: br.s         IL_0050
         IL_000e: nop
         IL_000f: nop
-        IL_0010: call [System.Runtime]System.Collections.Generic.IEnumerable`1<System.Threading.Tasks.Task`1<System.Int32>> class ClosureSample.Sample5_1.A::F()
+        IL_0010: call [System.Runtime]System.Collections.Generic.IEnumerable`1<System.Threading.Tasks.Task`1<System.Int32>> class ClosureSample.Sample5_Local_1.A::F()
         IL_0015: call System.Threading.Tasks.Task`1<!!0[]> class [System.Runtime]System.Threading.Tasks.Task::WhenAll<int32>(System.Collections.Generic.IEnumerable`1<System.Threading.Tasks.Task`1<!!0>>)
         IL_001a: callvirt instance [System.Runtime]System.Runtime.CompilerServices.TaskAwaiter`1<!0> class [System.Runtime]System.Threading.Tasks.Task`1<System.Int32[]>::GetAwaiter()
         IL_001f: stloc.1
@@ -160,74 +160,74 @@
         IL_002a: ldc.i4.0
         IL_002b: dup
         IL_002c: stloc.0
-        IL_002d: stfld int32 ClosureSample.Sample5_1.Program/<Main>d__0::'<>1__state'
+        IL_002d: stfld int32 ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>1__state'
         IL_0032: ldarg.0
         IL_0033: ldloc.1
-        IL_0034: stfld class [System.Runtime]System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32[]> ClosureSample.Sample5_1.Program/<Main>d__0::'<>u__1'
+        IL_0034: stfld class [System.Runtime]System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32[]> ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>u__1'
         IL_0039: ldarg.0
         IL_003a: stloc.2
         IL_003b: ldarg.0
-        IL_003c: ldflda valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder ClosureSample.Sample5_1.Program/<Main>d__0::'<>t__builder'
+        IL_003c: ldflda valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>t__builder'
         IL_0041: ldloca.s class V_1
         IL_0043: ldloca.s class V_2
-        IL_0045: call instance System.Void class valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<valuetype [System.Runtime]System.Runtime.CompilerServices.TaskAwaiter`1<int32>class ClosureSample.Sample5_1.Program/<Main>d__0>(!!0&, !!1&)
+        IL_0045: call instance System.Void class valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<valuetype [System.Runtime]System.Runtime.CompilerServices.TaskAwaiter`1<int32>class ClosureSample.Sample5_Local_1.Program/<Main>d__0>(!!0&, !!1&)
         IL_004a: nop
         IL_004b: leave         IL_0109
         IL_0050: ldarg.0
-        IL_0051: ldfld class [System.Runtime]System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32[]> ClosureSample.Sample5_1.Program/<Main>d__0::'<>u__1'
+        IL_0051: ldfld class [System.Runtime]System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32[]> ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>u__1'
         IL_0056: stloc.1
         IL_0057: ldarg.0
-        IL_0058: ldflda class [System.Runtime]System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32[]> ClosureSample.Sample5_1.Program/<Main>d__0::'<>u__1'
+        IL_0058: ldflda class [System.Runtime]System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32[]> ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>u__1'
         IL_005d: initobj class [System.Runtime]System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32[]>
         IL_0063: ldarg.0
         IL_0064: ldc.i4.m1
         IL_0065: dup
         IL_0066: stloc.0
-        IL_0067: stfld int32 ClosureSample.Sample5_1.Program/<Main>d__0::'<>1__state'
+        IL_0067: stfld int32 ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>1__state'
         IL_006c: ldarg.0
         IL_006d: ldloca.s class V_1
         IL_006f: call instance var class [System.Runtime]System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32[]>::GetResult()
-        IL_0074: stfld int32[] ClosureSample.Sample5_1.Program/<Main>d__0::'<>s__3'
+        IL_0074: stfld int32[] ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>s__3'
         IL_0079: ldarg.0
         IL_007a: ldarg.0
-        IL_007b: ldfld int32[] ClosureSample.Sample5_1.Program/<Main>d__0::'<>s__3'
-        IL_0080: stfld int32[] ClosureSample.Sample5_1.Program/<Main>d__0::'<>s__1'
+        IL_007b: ldfld int32[] ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>s__3'
+        IL_0080: stfld int32[] ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>s__1'
         IL_0085: ldarg.0
         IL_0086: ldnull
-        IL_0087: stfld int32[] ClosureSample.Sample5_1.Program/<Main>d__0::'<>s__3'
+        IL_0087: stfld int32[] ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>s__3'
         IL_008c: ldarg.0
         IL_008d: ldc.i4.0
-        IL_008e: stfld int32 ClosureSample.Sample5_1.Program/<Main>d__0::'<>s__2'
+        IL_008e: stfld int32 ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>s__2'
         IL_0093: br.s         IL_00c4
         IL_0095: ldarg.0
         IL_0096: ldarg.0
-        IL_0097: ldfld int32[] ClosureSample.Sample5_1.Program/<Main>d__0::'<>s__1'
+        IL_0097: ldfld int32[] ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>s__1'
         IL_009c: ldarg.0
-        IL_009d: ldfld int32 ClosureSample.Sample5_1.Program/<Main>d__0::'<>s__2'
+        IL_009d: ldfld int32 ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>s__2'
         IL_00a2: ldelem.i4
-        IL_00a3: stfld int32 ClosureSample.Sample5_1.Program/<Main>d__0::'<i>5__4'
+        IL_00a3: stfld int32 ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<i>5__4'
         IL_00a8: nop
         IL_00a9: ldarg.0
-        IL_00aa: ldfld int32 ClosureSample.Sample5_1.Program/<Main>d__0::'<i>5__4'
+        IL_00aa: ldfld int32 ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<i>5__4'
         IL_00af: call void class [System.Console]System.Console::WriteLine(int32)
         IL_00b4: nop
         IL_00b5: nop
         IL_00b6: ldarg.0
         IL_00b7: ldarg.0
-        IL_00b8: ldfld int32 ClosureSample.Sample5_1.Program/<Main>d__0::'<>s__2'
+        IL_00b8: ldfld int32 ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>s__2'
         IL_00bd: ldc.i4.1
         IL_00be: add
-        IL_00bf: stfld int32 ClosureSample.Sample5_1.Program/<Main>d__0::'<>s__2'
+        IL_00bf: stfld int32 ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>s__2'
         IL_00c4: ldarg.0
-        IL_00c5: ldfld int32 ClosureSample.Sample5_1.Program/<Main>d__0::'<>s__2'
+        IL_00c5: ldfld int32 ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>s__2'
         IL_00ca: ldarg.0
-        IL_00cb: ldfld int32[] ClosureSample.Sample5_1.Program/<Main>d__0::'<>s__1'
+        IL_00cb: ldfld int32[] ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>s__1'
         IL_00d0: ldlen
         IL_00d1: conv.i4
         IL_00d2: blt.s         IL_0095
         IL_00d4: ldarg.0
         IL_00d5: ldnull
-        IL_00d6: stfld int32[] ClosureSample.Sample5_1.Program/<Main>d__0::'<>s__1'
+        IL_00d6: stfld int32[] ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>s__1'
         IL_00db: leave.s         IL_00f5
       }
       catch [System.Runtime]System.Exception
@@ -235,9 +235,9 @@
         IL_00dd: stloc.3
         IL_00de: ldarg.0
         IL_00df: ldc.i4.s -2
-        IL_00e1: stfld int32 ClosureSample.Sample5_1.Program/<Main>d__0::'<>1__state'
+        IL_00e1: stfld int32 ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>1__state'
         IL_00e6: ldarg.0
-        IL_00e7: ldflda valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder ClosureSample.Sample5_1.Program/<Main>d__0::'<>t__builder'
+        IL_00e7: ldflda valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>t__builder'
         IL_00ec: ldloc.3
         IL_00ed: call instance void class valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetException([System.Runtime]System.Exception)
         IL_00f2: nop
@@ -245,13 +245,13 @@
       }
       IL_00f5: ldarg.0
       IL_00f6: ldc.i4.s -2
-      IL_00f8: stfld int32 ClosureSample.Sample5_1.Program/<Main>d__0::'<>1__state'
+      IL_00f8: stfld int32 ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>1__state'
       IL_00fd: ldarg.0
-      IL_00fe: ldflda valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder ClosureSample.Sample5_1.Program/<Main>d__0::'<>t__builder'
+      IL_00fe: ldflda valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder ClosureSample.Sample5_Local_1.Program/<Main>d__0::'<>t__builder'
       IL_0103: call instance void class valuetype [System.Threading.Tasks]System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetResult()
       IL_0108: nop
       IL_0109: ret
-    } // End of method System.Void ClosureSample.Sample5_1.Program/<Main>d__0::MoveNext()
+    } // End of method System.Void ClosureSample.Sample5_Local_1.Program/<Main>d__0::MoveNext()
     .method private hidebysig newslot virtual final instance default void SetStateMachine(class [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine stateMachine) cil managed
     {
       .custom instance void class [System.Diagnostics.Debug]System.Diagnostics.DebuggerHiddenAttribute::.ctor() = ( 01 00 00 00 ) // ....
@@ -259,22 +259,22 @@
       // Code size 1 (0x1)
       .maxstack 8
       IL_0000: ret
-    } // End of method System.Void ClosureSample.Sample5_1.Program/<Main>d__0::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-  } // End of class ClosureSample.Sample5_1.Program/<Main>d__0
-} // End of class ClosureSample.Sample5_1.Program
+    } // End of method System.Void ClosureSample.Sample5_Local_1.Program/<Main>d__0::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+  } // End of class ClosureSample.Sample5_Local_1.Program/<Main>d__0
+} // End of class ClosureSample.Sample5_Local_1.Program
 
-.class private abstract auto ansi sealed beforefieldinit ClosureSample.Sample5_1.A extends [System.Runtime]System.Object
+.class private abstract auto ansi sealed beforefieldinit ClosureSample.Sample5_Local_1.A extends [System.Runtime]System.Object
 {
   .method public hidebysig static default [System.Runtime]System.Collections.Generic.IEnumerable`1<System.Threading.Tasks.Task`1<System.Int32>> F() cil managed
   {
-    .custom instance void class [System.Runtime]System.Runtime.CompilerServices.IteratorStateMachineAttribute::.ctor([System.Runtime]System.Type) = ( 01 00 21 43 6C 6F 73 75 72 65 53 61 6D 70 6C 65 2E 53 61 6D 70 6C 65 35 5F 31 2E 41 2B 3C 46 3E 64 5F 5F 30 00 00 ) // ...ClosureSample.Sample5_1.A..F.d__0..
+    .custom instance void class [System.Runtime]System.Runtime.CompilerServices.IteratorStateMachineAttribute::.ctor([System.Runtime]System.Type) = ( 01 00 27 43 6C 6F 73 75 72 65 53 61 6D 70 6C 65 2E 53 61 6D 70 6C 65 35 5F 4C 6F 63 61 6C 5F 31 2E 41 2B 3C 46 3E 64 5F 5F 30 00 00 ) // ...ClosureSample.Sample5_Local_1.A..F.d__0..
     // Method begins at Relative Virtual Address (RVA) 0x20C0
     // Code size 8 (0x8)
     .maxstack 8
     IL_0000: ldc.i4.s -2
-    IL_0002: newobj instance void class ClosureSample.Sample5_1.A/<F>d__0::.ctor(int32)
+    IL_0002: newobj instance void class ClosureSample.Sample5_Local_1.A/<F>d__0::.ctor(int32)
     IL_0007: ret
-  } // End of method System.Collections.Generic.IEnumerable`1<System.Threading.Tasks.Task`1<System.Int32>> ClosureSample.Sample5_1.A::F()
+  } // End of method System.Collections.Generic.IEnumerable`1<System.Threading.Tasks.Task`1<System.Int32>> ClosureSample.Sample5_Local_1.A::F()
 
   .class nested private auto ansi sealed beforefieldinit <>c__DisplayClass0_0 extends [System.Runtime]System.Object
   {
@@ -289,17 +289,17 @@
       IL_0001: call instance void class [System.Runtime]System.Object::.ctor()
       IL_0006: nop
       IL_0007: ret
-    } // End of method System.Void ClosureSample.Sample5_1.A/<>c__DisplayClass0_0::.ctor()
+    } // End of method System.Void ClosureSample.Sample5_Local_1.A/<>c__DisplayClass0_0::.ctor()
     .method hidebysig instance default int32 <F>b__0() cil managed
     {
       // Method begins at Relative Virtual Address (RVA) 0x2207
       // Code size 7 (0x7)
       .maxstack 8
       IL_0000: ldarg.0
-      IL_0001: ldfld int32 ClosureSample.Sample5_1.A/<>c__DisplayClass0_0::ii
+      IL_0001: ldfld int32 ClosureSample.Sample5_Local_1.A/<>c__DisplayClass0_0::ii
       IL_0006: ret
-    } // End of method System.Int32 ClosureSample.Sample5_1.A/<>c__DisplayClass0_0::<F>b__0()
-  } // End of class ClosureSample.Sample5_1.A/<>c__DisplayClass0_0
+    } // End of method System.Int32 ClosureSample.Sample5_Local_1.A/<>c__DisplayClass0_0::<F>b__0()
+  } // End of class ClosureSample.Sample5_Local_1.A/<>c__DisplayClass0_0
 
   .class nested private auto ansi sealed beforefieldinit <F>d__0 extends [System.Runtime]System.Object implements [System.Runtime]System.Collections.Generic.IEnumerable`1<System.Threading.Tasks.Task`1<System.Int32>>, [System.Runtime]System.Collections.IEnumerable, [System.Runtime]System.Collections.Generic.IEnumerator`1<System.Threading.Tasks.Task`1<System.Int32>>, [System.Runtime]System.Collections.IEnumerator, [System.Runtime]System.IDisposable
   {
@@ -308,7 +308,7 @@
     .field private class [System.Runtime]System.Threading.Tasks.Task`1<System.Int32> '<>2__current'
     .field private int32 '<>l__initialThreadId'
     .field private int32 '<i>5__1'
-    .field private class ClosureSample.Sample5_1.A/<>c__DisplayClass0_0 '<>8__2'
+    .field private class ClosureSample.Sample5_Local_1.A/<>c__DisplayClass0_0 '<>8__2'
     .method public hidebysig specialname rtspecialname instance default void .ctor(int32 <>1__state) cil managed
     {
       .custom instance void class [System.Diagnostics.Debug]System.Diagnostics.DebuggerHiddenAttribute::.ctor() = ( 01 00 00 00 ) // ....
@@ -320,12 +320,12 @@
       IL_0006: nop
       IL_0007: ldarg.0
       IL_0008: ldarg.1
-      IL_0009: stfld int32 ClosureSample.Sample5_1.A/<F>d__0::'<>1__state'
+      IL_0009: stfld int32 ClosureSample.Sample5_Local_1.A/<F>d__0::'<>1__state'
       IL_000e: ldarg.0
       IL_000f: call int32 class [System.Runtime.Extensions]System.Environment::get_CurrentManagedThreadId()
-      IL_0014: stfld int32 ClosureSample.Sample5_1.A/<F>d__0::'<>l__initialThreadId'
+      IL_0014: stfld int32 ClosureSample.Sample5_Local_1.A/<F>d__0::'<>l__initialThreadId'
       IL_0019: ret
-    } // End of method System.Void ClosureSample.Sample5_1.A/<F>d__0::.ctor(System.Int32)
+    } // End of method System.Void ClosureSample.Sample5_Local_1.A/<F>d__0::.ctor(System.Int32)
     .method private hidebysig newslot virtual final instance default void System.IDisposable.Dispose() cil managed
     {
       .custom instance void class [System.Diagnostics.Debug]System.Diagnostics.DebuggerHiddenAttribute::.ctor() = ( 01 00 00 00 ) // ....
@@ -333,7 +333,7 @@
       // Code size 1 (0x1)
       .maxstack 8
       IL_0000: ret
-    } // End of method System.Void ClosureSample.Sample5_1.A/<F>d__0::System.IDisposable.Dispose()
+    } // End of method System.Void ClosureSample.Sample5_Local_1.A/<F>d__0::System.IDisposable.Dispose()
     .method private hidebysig newslot virtual final instance default bool MoveNext() cil managed
     {
       // Method begins at Relative Virtual Address (RVA) 0x222C
@@ -341,7 +341,7 @@
       .maxstack 3
       .locals init(int32 V_0, int32 V_1, bool V_2)
       IL_0000: ldarg.0
-      IL_0001: ldfld int32 ClosureSample.Sample5_1.A/<F>d__0::'<>1__state'
+      IL_0001: ldfld int32 ClosureSample.Sample5_Local_1.A/<F>d__0::'<>1__state'
       IL_0006: stloc.0
       IL_0007: ldloc.0
       IL_0008: brfalse.s       IL_0012
@@ -356,50 +356,50 @@
       IL_0017: ret
       IL_0018: ldarg.0
       IL_0019: ldc.i4.m1
-      IL_001a: stfld int32 ClosureSample.Sample5_1.A/<F>d__0::'<>1__state'
+      IL_001a: stfld int32 ClosureSample.Sample5_Local_1.A/<F>d__0::'<>1__state'
       IL_001f: nop
       IL_0020: ldarg.0
       IL_0021: ldc.i4.1
-      IL_0022: stfld int32 ClosureSample.Sample5_1.A/<F>d__0::'<i>5__1'
+      IL_0022: stfld int32 ClosureSample.Sample5_Local_1.A/<F>d__0::'<i>5__1'
       IL_0027: br.s       IL_008a
       IL_0029: ldarg.0
-      IL_002a: newobj instance void class ClosureSample.Sample5_1.A/<>c__DisplayClass0_0::.ctor()
-      IL_002f: stfld class ClosureSample.Sample5_1.A/<>c__DisplayClass0_0 ClosureSample.Sample5_1.A/<F>d__0::'<>8__2'
+      IL_002a: newobj instance void class ClosureSample.Sample5_Local_1.A/<>c__DisplayClass0_0::.ctor()
+      IL_002f: stfld class ClosureSample.Sample5_Local_1.A/<>c__DisplayClass0_0 ClosureSample.Sample5_Local_1.A/<F>d__0::'<>8__2'
       IL_0034: nop
       IL_0035: ldarg.0
-      IL_0036: ldfld class ClosureSample.Sample5_1.A/<>c__DisplayClass0_0 ClosureSample.Sample5_1.A/<F>d__0::'<>8__2'
+      IL_0036: ldfld class ClosureSample.Sample5_Local_1.A/<>c__DisplayClass0_0 ClosureSample.Sample5_Local_1.A/<F>d__0::'<>8__2'
       IL_003b: ldarg.0
-      IL_003c: ldfld int32 ClosureSample.Sample5_1.A/<F>d__0::'<i>5__1'
-      IL_0041: stfld int32 ClosureSample.Sample5_1.A/<>c__DisplayClass0_0::ii
+      IL_003c: ldfld int32 ClosureSample.Sample5_Local_1.A/<F>d__0::'<i>5__1'
+      IL_0041: stfld int32 ClosureSample.Sample5_Local_1.A/<>c__DisplayClass0_0::ii
       IL_0046: ldarg.0
       IL_0047: ldarg.0
-      IL_0048: ldfld class ClosureSample.Sample5_1.A/<>c__DisplayClass0_0 ClosureSample.Sample5_1.A/<F>d__0::'<>8__2'
-      IL_004d: ldftn instance int32 class ClosureSample.Sample5_1.A/<>c__DisplayClass0_0::<F>b__0()
+      IL_0048: ldfld class ClosureSample.Sample5_Local_1.A/<>c__DisplayClass0_0 ClosureSample.Sample5_Local_1.A/<F>d__0::'<>8__2'
+      IL_004d: ldftn instance int32 class ClosureSample.Sample5_Local_1.A/<>c__DisplayClass0_0::<F>b__0()
       IL_0053: newobj instance void class [System.Runtime]System.Func`1<System.Int32>::.ctor([System.Runtime]System.Object, [System.Runtime]System.IntPtr)
       IL_0058: call System.Threading.Tasks.Task`1<!!0> class [System.Runtime]System.Threading.Tasks.Task::Run<int32>(System.Func`1<!!0>)
-      IL_005d: stfld class [System.Runtime]System.Threading.Tasks.Task`1<System.Int32> ClosureSample.Sample5_1.A/<F>d__0::'<>2__current'
+      IL_005d: stfld class [System.Runtime]System.Threading.Tasks.Task`1<System.Int32> ClosureSample.Sample5_Local_1.A/<F>d__0::'<>2__current'
       IL_0062: ldarg.0
       IL_0063: ldc.i4.1
-      IL_0064: stfld int32 ClosureSample.Sample5_1.A/<F>d__0::'<>1__state'
+      IL_0064: stfld int32 ClosureSample.Sample5_Local_1.A/<F>d__0::'<>1__state'
       IL_0069: ldc.i4.1
       IL_006a: ret
       IL_006b: ldarg.0
       IL_006c: ldc.i4.m1
-      IL_006d: stfld int32 ClosureSample.Sample5_1.A/<F>d__0::'<>1__state'
+      IL_006d: stfld int32 ClosureSample.Sample5_Local_1.A/<F>d__0::'<>1__state'
       IL_0072: nop
       IL_0073: ldarg.0
       IL_0074: ldnull
-      IL_0075: stfld class ClosureSample.Sample5_1.A/<>c__DisplayClass0_0 ClosureSample.Sample5_1.A/<F>d__0::'<>8__2'
+      IL_0075: stfld class ClosureSample.Sample5_Local_1.A/<>c__DisplayClass0_0 ClosureSample.Sample5_Local_1.A/<F>d__0::'<>8__2'
       IL_007a: ldarg.0
-      IL_007b: ldfld int32 ClosureSample.Sample5_1.A/<F>d__0::'<i>5__1'
+      IL_007b: ldfld int32 ClosureSample.Sample5_Local_1.A/<F>d__0::'<i>5__1'
       IL_0080: stloc.1
       IL_0081: ldarg.0
       IL_0082: ldloc.1
       IL_0083: ldc.i4.1
       IL_0084: add
-      IL_0085: stfld int32 ClosureSample.Sample5_1.A/<F>d__0::'<i>5__1'
+      IL_0085: stfld int32 ClosureSample.Sample5_Local_1.A/<F>d__0::'<i>5__1'
       IL_008a: ldarg.0
-      IL_008b: ldfld int32 ClosureSample.Sample5_1.A/<F>d__0::'<i>5__1'
+      IL_008b: ldfld int32 ClosureSample.Sample5_Local_1.A/<F>d__0::'<i>5__1'
       IL_0090: ldc.i4.s 10
       IL_0092: cgt
       IL_0094: ldc.i4.0
@@ -409,7 +409,7 @@
       IL_0099: brtrue.s       IL_0029
       IL_009b: ldc.i4.0
       IL_009c: ret
-    } // End of method System.Boolean ClosureSample.Sample5_1.A/<F>d__0::MoveNext()
+    } // End of method System.Boolean ClosureSample.Sample5_Local_1.A/<F>d__0::MoveNext()
     .method private hidebysig newslot virtual specialname final instance default [System.Runtime]System.Threading.Tasks.Task`1<System.Int32> System.Collections.Generic.IEnumerator<System.Threading.Tasks.Task<System.Int32>>.get_Current() cil managed
     {
       .custom instance void class [System.Diagnostics.Debug]System.Diagnostics.DebuggerHiddenAttribute::.ctor() = ( 01 00 00 00 ) // ....
@@ -417,9 +417,9 @@
       // Code size 7 (0x7)
       .maxstack 8
       IL_0000: ldarg.0
-      IL_0001: ldfld class [System.Runtime]System.Threading.Tasks.Task`1<System.Int32> ClosureSample.Sample5_1.A/<F>d__0::'<>2__current'
+      IL_0001: ldfld class [System.Runtime]System.Threading.Tasks.Task`1<System.Int32> ClosureSample.Sample5_Local_1.A/<F>d__0::'<>2__current'
       IL_0006: ret
-    } // End of method System.Threading.Tasks.Task`1<System.Int32> ClosureSample.Sample5_1.A/<F>d__0::System.Collections.Generic.IEnumerator<System.Threading.Tasks.Task<System.Int32>>.get_Current()
+    } // End of method System.Threading.Tasks.Task`1<System.Int32> ClosureSample.Sample5_Local_1.A/<F>d__0::System.Collections.Generic.IEnumerator<System.Threading.Tasks.Task<System.Int32>>.get_Current()
     .method private hidebysig newslot virtual final instance default void System.Collections.IEnumerator.Reset() cil managed
     {
       .custom instance void class [System.Diagnostics.Debug]System.Diagnostics.DebuggerHiddenAttribute::.ctor() = ( 01 00 00 00 ) // ....
@@ -428,7 +428,7 @@
       .maxstack 8
       IL_0000: newobj instance void class [System.Runtime]System.NotSupportedException::.ctor()
       IL_0005: throw
-    } // End of method System.Void ClosureSample.Sample5_1.A/<F>d__0::System.Collections.IEnumerator.Reset()
+    } // End of method System.Void ClosureSample.Sample5_Local_1.A/<F>d__0::System.Collections.IEnumerator.Reset()
     .method private hidebysig newslot virtual specialname final instance default [System.Runtime]System.Object System.Collections.IEnumerator.get_Current() cil managed
     {
       .custom instance void class [System.Diagnostics.Debug]System.Diagnostics.DebuggerHiddenAttribute::.ctor() = ( 01 00 00 00 ) // ....
@@ -436,36 +436,36 @@
       // Code size 7 (0x7)
       .maxstack 8
       IL_0000: ldarg.0
-      IL_0001: ldfld class [System.Runtime]System.Threading.Tasks.Task`1<System.Int32> ClosureSample.Sample5_1.A/<F>d__0::'<>2__current'
+      IL_0001: ldfld class [System.Runtime]System.Threading.Tasks.Task`1<System.Int32> ClosureSample.Sample5_Local_1.A/<F>d__0::'<>2__current'
       IL_0006: ret
-    } // End of method System.Object ClosureSample.Sample5_1.A/<F>d__0::System.Collections.IEnumerator.get_Current()
+    } // End of method System.Object ClosureSample.Sample5_Local_1.A/<F>d__0::System.Collections.IEnumerator.get_Current()
     .method private hidebysig newslot virtual final instance default [System.Runtime]System.Collections.Generic.IEnumerator`1<System.Threading.Tasks.Task`1<System.Int32>> System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task<System.Int32>>.GetEnumerator() cil managed
     {
       .custom instance void class [System.Diagnostics.Debug]System.Diagnostics.DebuggerHiddenAttribute::.ctor() = ( 01 00 00 00 ) // ....
       // Method begins at Relative Virtual Address (RVA) 0x22EC
       // Code size 43 (0x2B)
       .maxstack 2
-      .locals init(class ClosureSample.Sample5_1.A/<F>d__0 V_0)
+      .locals init(class ClosureSample.Sample5_Local_1.A/<F>d__0 V_0)
       IL_0000: ldarg.0
-      IL_0001: ldfld int32 ClosureSample.Sample5_1.A/<F>d__0::'<>1__state'
+      IL_0001: ldfld int32 ClosureSample.Sample5_Local_1.A/<F>d__0::'<>1__state'
       IL_0006: ldc.i4.s -2
       IL_0008: bne.un.s       IL_0022
       IL_000a: ldarg.0
-      IL_000b: ldfld int32 ClosureSample.Sample5_1.A/<F>d__0::'<>l__initialThreadId'
+      IL_000b: ldfld int32 ClosureSample.Sample5_Local_1.A/<F>d__0::'<>l__initialThreadId'
       IL_0010: call int32 class [System.Runtime.Extensions]System.Environment::get_CurrentManagedThreadId()
       IL_0015: bne.un.s       IL_0022
       IL_0017: ldarg.0
       IL_0018: ldc.i4.0
-      IL_0019: stfld int32 ClosureSample.Sample5_1.A/<F>d__0::'<>1__state'
+      IL_0019: stfld int32 ClosureSample.Sample5_Local_1.A/<F>d__0::'<>1__state'
       IL_001e: ldarg.0
       IL_001f: stloc.0
       IL_0020: br.s       IL_0029
       IL_0022: ldc.i4.0
-      IL_0023: newobj instance void class ClosureSample.Sample5_1.A/<F>d__0::.ctor(int32)
+      IL_0023: newobj instance void class ClosureSample.Sample5_Local_1.A/<F>d__0::.ctor(int32)
       IL_0028: stloc.0
       IL_0029: ldloc.0
       IL_002a: ret
-    } // End of method System.Collections.Generic.IEnumerator`1<System.Threading.Tasks.Task`1<System.Int32>> ClosureSample.Sample5_1.A/<F>d__0::System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task<System.Int32>>.GetEnumerator()
+    } // End of method System.Collections.Generic.IEnumerator`1<System.Threading.Tasks.Task`1<System.Int32>> ClosureSample.Sample5_Local_1.A/<F>d__0::System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task<System.Int32>>.GetEnumerator()
     .method private hidebysig newslot virtual final instance default [System.Runtime]System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed
     {
       .custom instance void class [System.Diagnostics.Debug]System.Diagnostics.DebuggerHiddenAttribute::.ctor() = ( 01 00 00 00 ) // ....
@@ -473,16 +473,16 @@
       // Code size 7 (0x7)
       .maxstack 8
       IL_0000: ldarg.0
-      IL_0001: call instance [System.Runtime]System.Collections.Generic.IEnumerator`1<System.Threading.Tasks.Task`1<System.Int32>> class ClosureSample.Sample5_1.A/<F>d__0::System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task<System.Int32>>.GetEnumerator()
+      IL_0001: call instance [System.Runtime]System.Collections.Generic.IEnumerator`1<System.Threading.Tasks.Task`1<System.Int32>> class ClosureSample.Sample5_Local_1.A/<F>d__0::System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task<System.Int32>>.GetEnumerator()
       IL_0006: ret
-    } // End of method System.Collections.IEnumerator ClosureSample.Sample5_1.A/<F>d__0::System.Collections.IEnumerable.GetEnumerator()
+    } // End of method System.Collections.IEnumerator ClosureSample.Sample5_Local_1.A/<F>d__0::System.Collections.IEnumerable.GetEnumerator()
     .property instance [System.Runtime]System.Threading.Tasks.Task`1<System.Int32> System.Collections.Generic.IEnumerator<System.Threading.Tasks.Task<System.Int32>>.Current ()
     {
-      .get instance default [System.Runtime]System.Threading.Tasks.Task`1<System.Int32> ClosureSample.Sample5_1.A/<F>d__0::System.Collections.Generic.IEnumerator<System.Threading.Tasks.Task<System.Int32>>.get_Current ()
-    } // End of property System.Threading.Tasks.Task`1<System.Int32> ClosureSample.Sample5_1.A/<F>d__0::System.Collections.Generic.IEnumerator<System.Threading.Tasks.Task<System.Int32>>.Current()
+      .get instance default [System.Runtime]System.Threading.Tasks.Task`1<System.Int32> ClosureSample.Sample5_Local_1.A/<F>d__0::System.Collections.Generic.IEnumerator<System.Threading.Tasks.Task<System.Int32>>.get_Current ()
+    } // End of property System.Threading.Tasks.Task`1<System.Int32> ClosureSample.Sample5_Local_1.A/<F>d__0::System.Collections.Generic.IEnumerator<System.Threading.Tasks.Task<System.Int32>>.Current()
     .property instance [System.Runtime]System.Object System.Collections.IEnumerator.Current ()
     {
-      .get instance default [System.Runtime]System.Object ClosureSample.Sample5_1.A/<F>d__0::System.Collections.IEnumerator.get_Current ()
-    } // End of property System.Object ClosureSample.Sample5_1.A/<F>d__0::System.Collections.IEnumerator.Current()
-  } // End of class ClosureSample.Sample5_1.A/<F>d__0
-} // End of class ClosureSample.Sample5_1.A
+      .get instance default [System.Runtime]System.Object ClosureSample.Sample5_Local_1.A/<F>d__0::System.Collections.IEnumerator.get_Current ()
+    } // End of property System.Object ClosureSample.Sample5_Local_1.A/<F>d__0::System.Collections.IEnumerator.Current()
+  } // End of class ClosureSample.Sample5_Local_1.A/<F>d__0
+} // End of class ClosureSample.Sample5_Local_1.A
